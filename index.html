@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Решение математические задачи</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Ҳалли масъалаҳои математикӣ тавассути JavaScript</h1>
+
+        <!-- First content -->
+        <div class="content">
+            <p class="exercise_text">1. Барномае нависед, ки ифодаи зеринро барои дилхоҳ қимати <b>x</b> ва <b>b</b> ҳал намояд?</p>
+            <p><img src="img/formula1.png" width="300" height="auto" class="img1" alt="Formula 1"></p>
+            <div class="blog">
+                <label class="math_label" for="first_num"><b>x = </b><input class="input_nums" type="number" name="firstNum" id="first_num"></label>
+                <label class="math_label" for="second_num"><b>b = </b><input class="input_nums" type="number" name="second_num" id="second_num"></label>
+                <button type="button" class="btn" id="show_result">Хориҷи натиҷа</button>
+                <p class="result">Натиҷа:<strong id="print_result"></strong></p>
+            </div>
+
+        </div>
+
+        <!-- Second content -->
+
+        <div class=" second_content content ">
+            <p class="exercise_text ">2. a) Барномае нависед, ки ифодаи мантиқии зеринро ҳал намуда, қимати <b>y1</b> -ро дар ҷадвали зерин пур намояд.</p>
+
+
+            <div class="blog_intro ">
+                <p><img src="img/formula2.png " class="img2 " alt="Formula 2"></p>
+                <div class="blog_input">
+
+                    <label class="bool_label" for="x1">x1 =</label><input type="number" class="bool_input" name="x1" id="x1" length="1">
+                    <label class="bool_label" for="x2">x2 =</label><input type="number" class="bool_input" name="x2" id="x2">
+                    <label class="bool_label" for="x3">x3 =</label><input type="number" class="bool_input" name="x3" id="x3">
+                    <label class="bool_label" for="x4">x4 =</label><input type="number" class="bool_input" name="x4" id="x4">
+                </div>
+                <button type="button" class="btn" id="btn2">Хориҷи натиҷа</button>
+
+            </div>
+
+            <div class="table">
+                <table class="blog_table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>x1</th>
+                            <th>x2</th>
+                            <th>x3</th>
+                            <th>x4</th>
+                            <th>y1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y1"></td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Third content -->
+
+        <div class=" second_content content ">
+            <p class="exercise_text ">2. б) Барномае нависед, ки ифодаи мантиқии зеринро ҳал намуда, қимати <b>y2</b> -ро дар ҷадвали зерин пур намояд.</p>
+
+            <div class="blog_intro ">
+                <p><img src="img/formula3.png" class="img2" alt="Formula 3"></p>
+                <div class="blog_input">
+
+                    <label class="bool_label" for="z1">x1 =</label><input type="number" class="bool_input" name="z1" id="z1">
+                    <label class="bool_label" for="z2">x2 =</label><input type="number" class="bool_input" name="z2" id="z2">
+                    <label class="bool_label" for="z3">x3 =</label><input type="number" class="bool_input" name="z3" id="z3">
+                    <label class="bool_label" for="z4">x4 =</label><input type="number" class="bool_input" name="z4" id="z4">
+                </div>
+                <button type="button" class="btn" id="btn3">Хориҷи натиҷа</button>
+
+            </div>
+
+            <div class="table">
+                <table class="blog_table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>x1</th>
+                            <th>x2</th>
+                            <th>x3</th>
+                            <th>x4</th>
+                            <th>y2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="y2"></td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="y2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
